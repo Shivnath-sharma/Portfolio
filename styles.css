@@ -1,0 +1,110 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #faf8f8;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+p {
+  margin: 30px 0 50px 0;
+  font-size: 2.5rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1em;
+  font-size: 2.5rem;
+  width: 7em;
+  aspect-ratio: 1/0.25;
+  color: white;
+  background: #212121;
+  background-size: cover;
+  background-blend-mode: overlay;
+  border-radius: 2.5em;
+  outline: 0.1em solid #353535;
+  border: 0;
+  box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  text-decoration: none;
+}
+
+.social-btn{
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+  width: 150px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1em 0.45em rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #212121, #252525);
+  background: radial-gradient(
+    circle at bottom,
+    rgba(50, 100, 180, 0.5) 1%,
+    #212121 60%
+  );
+  outline: 0;
+}
+
+.home-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1.9rem;
+  border-radius: 60px;
+  width: 4em;
+  aspect-ratio: 0;
+}
+
+.social-links a {
+  margin: 10px;
+  font-size: 2.5rem;
+  color: #212121;
+  transition: all 0.25s ease-in-out;
+  border-radius: 50px;
+}
+
+.social-links a:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 1em 0.45em rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #212121, #252525);
+  background: radial-gradient(
+    circle at bottom,
+    rgba(50, 100, 180, 0.5) 10%,
+    #212121 70%
+  );
+  outline: 0;
+  color: white;
+
+}
