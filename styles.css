@@ -41,7 +41,6 @@ p {
   padding: 0.8em;
   font-size: 1.1rem;
   width: 151px;
-  aspect-ratio: 1/0.25;
   color: white;
   background: #212121;
   background-size: cover;
@@ -88,8 +87,8 @@ p {
 }
 
 .social-links a {
+  padding: 25px;
   margin: 10px;
-  font-size: 2.5rem;
   color: #212121;
   transition: all 0.25s ease-in-out;
   border-radius: 50px;
