@@ -31,6 +31,7 @@ p {
 .button-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 25px;
   margin-top: 20px;
 }
@@ -106,4 +107,44 @@ p {
   outline: 0;
   color: white;
 
+}
+
+
+/* Media Query for 480px */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    width: 120px;
+    padding: 0.6em;
+  }
+
+  .button-container {
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .social-btn {
+    width: 70px;
+    font-size: 0.9rem;
+  }
+
+  .home-btn {
+    font-size: 0.9rem;
+    width: 48px;
+    padding: 0.6em;
+  }
+
+  .social-links a {
+    padding: 15px;
+    margin: 5px;
+    font-size: 1.5rem;
+  }
 }
